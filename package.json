@@ -1,7 +1,7 @@
 {
-  "name": "nodejs_calculator",
+  "name": "bmi-calculator",
   "version": "1.0.0",
-  "description": "A calculator made with Node.js and Express",
+  "description": "A Body Mass Index (BMI) calculator made with Node.js and Express.",
   "main": "calculator.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/oliviakim217/nodejs_calculator#readme",
   "dependencies": {
+    "body-parser": "^1.19.2",
     "express": "^4.17.3"
   }
 }
