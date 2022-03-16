@@ -1,2 +1,2 @@
-# nodejs_calculator
-A calculator made with Node.js and Express
+# bmi_calculator
+A Body Mass Index (BMI) calculator made with Node.js and Express.
