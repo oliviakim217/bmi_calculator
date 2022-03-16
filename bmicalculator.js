@@ -12,7 +12,7 @@ app.get("/", function(req, res) {
 app.post("/", function(req, res) {
     var _weight = Number(req.body.weight);
     var _height = Number(req.body.height);
-    var bmi = Math.round(((_weight / Math.pow(_height, 2)) + Number.EPSILON) * 100) / 100;
+    var bmi = Math.round(((_weight / Math.pow(_height, 2)) + Number.EPSILON) * 100) / 100; //Round down to 2 decimal places
     res.send("Your BMI is: " + bmi);
 })
 
